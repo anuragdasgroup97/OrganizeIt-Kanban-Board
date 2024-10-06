@@ -1,0 +1,131 @@
+.kanban-board {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  min-height: 100vh; /* Ensuring it covers the full height of the page */
+}
+
+.kanban-controls {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.display-section {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.dropdown-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Styling for the display button */
+.display-button {
+  background-color: #8da3ba;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.display-button:hover {
+  background-color: #75a1cf;
+}
+
+.kanban-columns {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.kanban-column {
+  flex: 1;
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.kanban-column h2 {
+  text-align: left; 
+  margin: 0 0 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 8px; 
+}
+
+.add-icon, .dot-menu-icon {
+  width: 16px; 
+  height: 16px;
+  cursor: pointer;
+}
+
+.ticket-card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.display-icon {
+  width: 20px; 
+  height: auto;
+  margin-right: 8px; 
+  vertical-align: middle; 
+}
+
+.status-icon,
+.priority-icon {
+  width: 20px; 
+  height: auto; 
+  margin-right: 15px; 
+  vertical-align: middle; 
+}
+
+.user-initials-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #5A67D8;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8px; 
+}
+
+.ticket-count {
+  font-weight: normal;
+}

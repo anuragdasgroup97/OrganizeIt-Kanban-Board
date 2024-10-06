@@ -1,0 +1,13 @@
+.initials-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    color: white; /* Text color */
+    font-weight: bold; /* Make text bold */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-left: 10px; /* Space between title and initials icon */
+  }
+  
